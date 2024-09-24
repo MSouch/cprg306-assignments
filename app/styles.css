@@ -1,0 +1,19 @@
+/* Increase the font size of the header */
+.large-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+/*link style */
+  a {
+    text-decoration: none;
+    color: rgb(0, 255, 238);
+    font-weight: bold;
+  }
+  
+  /* Add hover effect to the link */
+  a:hover {
+    color: red;  /* The link turns red on hover */
+    text-decoration: underline;  /* The link is underlined on hover */
+  }
+  
