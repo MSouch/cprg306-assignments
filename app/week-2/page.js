@@ -22,7 +22,7 @@ export const StudentInfo = () => {
   );
 };
 
-// combined components function 
+
 export default function CombinedComponent() {
   return (
     <>
