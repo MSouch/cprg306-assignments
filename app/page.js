@@ -33,6 +33,11 @@ export default function HomePage() {
         Go to Week 6 Assignments
         </Link>
       </p>
+      <p>
+        <Link href="/week-7">
+        Go to Week 7 Assignments
+        </Link>
+      </p>
     </main>
   );
 }
