@@ -1,0 +1,101 @@
+.meal-ideas ul li {
+    background-color: #1e1e2f; /* Dark background for each item */
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    color: #ffffff !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Remove underline if it's an <a> */
+  }
+  
+  .meal-ideas ul li a {
+    color: #ffffff; /* Override blue color of link */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .meal-ideas ul li:hover a {
+    color: #ffffff; /* Keep text white on hover */
+  }
+  
+  .meal-ideas ul li:hover {
+    background-color: #2a2a3e;
+  }
+  
+  
+  .meal-details {
+    margin-top: 1rem;
+    background-color: #1e1e2f;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+  
+  
+  .meal-details {
+    margin-top: 1rem;
+  }
+  
+  
+  .meal-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #444;
+  }
+  
+  .meal-item:last-child {
+    border-bottom: none;
+  }
+  .item {
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  .item-name {
+    font-weight: bold;
+  }
+  
+  .item-details {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  .sort-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sort-button {
+    padding: 0.5rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .name-button {
+    background-color: #ff6b6b;
+  }
+  
+  .category-button {
+    background-color: #4ecca3;
+  }
+  .page-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .shopping-list {
+    width: 60%;
+  }
+  
+  .meal-ideas-container {
+    width: 40%;
+  }
+  
